@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "phy-poetry"
+version = "0.1.0"
+description = ""
+authors = ["caniko <canhtart@gmail.com>"]
+readme = "README.md"
+packages = [{include = "phy_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+phy = {version = "*", allow-prereleases = true}
+numpy = ">=1.23.0,<1.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

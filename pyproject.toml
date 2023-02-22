@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "phy-poetry"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["caniko <canhtart@gmail.com>"]
 readme = "README.md"
+license = "BSD-4"
 packages = [{include = "phy_poetry"}]
 
 [tool.poetry.dependencies]
